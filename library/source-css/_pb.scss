@@ -1,0 +1,5 @@
+@for $i from 1 through 9 {
+  .pb_#{8 * $i} {
+    padding-bottom: 8 * $i+px;
+  }
+}

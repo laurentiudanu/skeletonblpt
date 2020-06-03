@@ -1,0 +1,7 @@
+@for $i from 1 through 9 {
+  .ptb_#{8 * $i} {
+    padding-top: 8 * $i+px;
+    padding-bottom: 8 * $i+px;
+  }
+}
+
